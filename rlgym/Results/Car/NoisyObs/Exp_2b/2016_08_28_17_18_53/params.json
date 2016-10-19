@@ -1,0 +1,108 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY3JsbGFiLmVudnMubm9pc3lfZW52Ck5vaXN5T2JzZXJ2YXRpb25FbnYKcDI3CnNnMTMKKGRwMjgKUydvYnNfbm9pc2UnCnAyOQpGMC4yMDAwMDAwMDAwMDAwMDAwMQpzUydlbnYnCnAzMApnMQooZzcKZzMKTnRScDMxCihkcDMyCmcxMAoodHNnMTEKY0d5bUVudnMuaHJsX2VudgpIUkxFbnYKcDMzCnNnMTMKKGRwMzQKUydkb21haW4nCnAzNQpnMQooZzcKZzMKTnRScDM2CihkcDM3CmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMzgKc2cxMwooZHAzOQpnMzUKZzEKKGc3CmczCk50UnA0MAooZHA0MQpnMTAKKHRzZzExCmNEb21haW5zLlJDQ2FyX0V4cGVyaW1lbnRhbApSQ0NhclNsaWRlVHVybgpwNDIKc2cxMwooZHA0MwpTJ25vaXNlJwpwNDQKRjAKc3Nic3Nic1MncG9saWNpZXMnCnA0NQoobHA0NgpnMQooZzcKZzMKTnRScDQ3CihkcDQ4CmcxMAoodHNnMTEKY1BvbGljaWVzLlBvbGljeUxvYWRlcgpQb2xpY3lMb2FkZXIKcDQ5CnNnMTMKKGRwNTAKUydwYXRoX3RvX2V4cCcKcDUxClMnbW9kZWxzL3NsaWRldHVybl9leHBlcmltZW50L2FnZW50MCcKcDUyCnNzYmFnMQooZzcKZzMKTnRScDUzCihkcDU0CmcxMAoodHNnMTEKZzQ5CnNnMTMKKGRwNTUKZzUxClMnbW9kZWxzL3NsaWRldHVybl9leHBlcmltZW50L2FnZW50MScKcDU2CnNzYmFzc2Jzc2JzUydfYXR0cl9uYW1lJwpwNTcKUydzcGVjJwpwNTgKc2Jzc2JzUydiYXRjaF9zaXplJwpwNTkKSTQwMDAKc1MnZGlzY291bnQnCnA2MApGMC45MDAwMDAwMDAwMDAwMDAwMgpzUydzdGVwX3NpemUnCnA2MQpGMC4wMQpzUyduX2l0cicKcDYyCkkxMDAKc2czMApnMjUKc1MncG9saWN5JwpwNjMKZzEKKGc3CmczCk50UnA2NAooZHA2NQpnMTAKKHRzZzExCmNybGxhYi5wb2xpY2llcy5jYXRlZ29yaWNhbF9tbHBfcG9saWN5CkNhdGVnb3JpY2FsTUxQUG9saWN5CnA2NgpzZzEzCihkcDY3CmcyMApnMQooZzIxCmczCk50UnA2OAooZHA2OQpnMjQKZzI1CnNnNTcKZzU4CnNic3Nic1MnbWF4X3BhdGhfbGVuZ3RoJwpwNzAKZzEKKGcyMQpnMwpOdFJwNzEKKGRwNzIKZzI0CmcyNQpzZzU3ClMnaG9yaXpvbicKcDczCnNic3NiUyd0cmFpbicKcDc0Cih0KGRwNzUKdHA3NgpzUydfX2t3YXJncycKcDc3CihkcDc4CnNiLg==", 
+  "exp_name": "Exp_2b2016_08_28_17_18_53", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 4000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "rllab.envs.noisy_env.NoisyObservationEnv", 
+          "env": {
+            "_name": "GymEnvs.hrl_env.HRLEnv", 
+            "domain": {
+              "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+              "domain": {
+                "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+                "noise": 0.0
+              }
+            }, 
+            "policies": [
+              {
+                "_name": "Policies.PolicyLoader.PolicyLoader", 
+                "path_to_exp": "models/slideturn_experiment/agent0"
+              }, 
+              {
+                "_name": "Policies.PolicyLoader.PolicyLoader", 
+                "path_to_exp": "models/slideturn_experiment/agent1"
+              }
+            ]
+          }, 
+          "obs_noise": 0.2, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 100, 
+      "step_size": 0.01
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "rllab.envs.noisy_env.NoisyObservationEnv", 
+          "env": {
+            "_name": "GymEnvs.hrl_env.HRLEnv", 
+            "domain": {
+              "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+              "domain": {
+                "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+                "noise": 0.0
+              }
+            }, 
+            "policies": [
+              {
+                "_name": "Policies.PolicyLoader.PolicyLoader", 
+                "path_to_exp": "models/slideturn_experiment/agent0"
+              }, 
+              {
+                "_name": "Policies.PolicyLoader.PolicyLoader", 
+                "path_to_exp": "models/slideturn_experiment/agent1"
+              }
+            ]
+          }, 
+          "obs_noise": 0.2, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "rllab.envs.noisy_env.NoisyObservationEnv", 
+      "env": {
+        "_name": "GymEnvs.hrl_env.HRLEnv", 
+        "domain": {
+          "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+          "domain": {
+            "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+            "noise": 0.0
+          }
+        }, 
+        "policies": [
+          {
+            "_name": "Policies.PolicyLoader.PolicyLoader", 
+            "path_to_exp": "models/slideturn_experiment/agent0"
+          }, 
+          {
+            "_name": "Policies.PolicyLoader.PolicyLoader", 
+            "path_to_exp": "models/slideturn_experiment/agent1"
+          }
+        ]
+      }, 
+      "obs_noise": 0.2
+    }, 
+    "policy": []
+  }, 
+  "log_dir": "./Results/Car/NoisyObs/Exp_2b/2016_08_28_17_18_53", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": null, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

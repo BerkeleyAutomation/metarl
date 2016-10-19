@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<todo version="0.1.20">
+    <note priority="veryhigh" time="1467072264" done="1467415387">
+        finish presentation for robert/philipp
+        <comment>
+            done
+        </comment>
+    </note>
+    <note priority="high" time="1467072281" done="1467239108">
+        do math hw for wk1
+        <comment>
+            need to staple, done
+        </comment>
+    </note>
+    <note priority="medium" time="1467072143" done="1467072328">
+        Do homework
+        <comment>
+            Done
+        </comment>
+    </note>
+    <note priority="medium" time="1467072232" done="1467239125">
+        Setup RLpy domain for extended domain
+        <comment>
+            done
+        </comment>
+    </note>
+    <note priority="medium" time="1467072246">
+        Write out math for sk/ag
+    </note>
+    <note priority="medium" time="1467072288">
+        do math hw for wk2
+    </note>
+    <note priority="medium" time="1467081063">
+        fix probability for massive experience
+    </note>
+    <note priority="medium" time="1467239141">
+        plot out statespace
+    </note>
+    <note priority="medium" time="1467415505">
+        Make sure to verify voting is work
+    </note>
+    <note priority="medium" time="1467415552">
+        Voting vs History on car domain
+    </note>
+</todo>

@@ -1,0 +1,76 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY0d5bUVudnMuaHJsX2VudgpIUkxFbnYKcDI3CnNnMTMKKGRwMjgKUydkb21haW4nCnAyOQpnMQooZzcKZzMKTnRScDMwCihkcDMxCmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMzIKc2cxMwooZHAzMwpnMjkKZzEKKGc3CmczCk50UnAzNAooZHAzNQpnMTAKKHRzZzExCmNEb21haW5zLlJDQ2FyQmFycmllcnMKUkNDYXJCYXJyaWVycwpwMzYKc2cxMwooZHAzNwpTJ25vaXNlJwpwMzgKRjAuMTAwMDAwMDAwMDAwMDAwMDEKc3Nic3Nic1MncG9saWNpZXMnCnAzOQoobHA0MApnMQooZzcKZzMKTnRScDQxCihkcDQyCmcxMAoodHNnMTEKY1BvbGljaWVzLlBvbGljeUxvYWRlcgpQb2xpY3lMb2FkZXIKcDQzCnNnMTMKKGRwNDQKUydwYXRoX3RvX2V4cCcKcDQ1ClMnbW9kZWxzL25vaXN5L2dvb2QnCnA0Ngpzc2JhZzEKKGc3CmczCk50UnA0NwooZHA0OApnMTAKKHRzZzExCmc0MwpzZzEzCihkcDQ5Cmc0NQpTJ21vZGVscy9ub2lzeS91bnRyYWluZWQnCnA1MApzc2Jhc3Nic1MnX2F0dHJfbmFtZScKcDUxClMnc3BlYycKcDUyCnNic3Nic1MnYmF0Y2hfc2l6ZScKcDUzCkk0MDAwCnNTJ2Rpc2NvdW50JwpwNTQKRjAuOTAwMDAwMDAwMDAwMDAwMDIKc1Mnc3RlcF9zaXplJwpwNTUKRjAuMDAwMQpzUyduX2l0cicKcDU2Ckk1MDAKc1MnZW52JwpwNTcKZzI1CnNTJ3BvbGljeScKcDU4CmcxCihnNwpnMwpOdFJwNTkKKGRwNjAKZzEwCih0c2cxMQpjcmxsYWIucG9saWNpZXMuY2F0ZWdvcmljYWxfbWxwX3BvbGljeQpDYXRlZ29yaWNhbE1MUFBvbGljeQpwNjEKc2cxMwooZHA2MgpnMjAKZzEKKGcyMQpnMwpOdFJwNjMKKGRwNjQKZzI0CmcyNQpzZzUxCmc1MgpzYnNTJ2hpZGRlbl9zaXplcycKcDY1CihJNjQKSTMyCnRwNjYKc3Nic1MnbWF4X3BhdGhfbGVuZ3RoJwpwNjcKZzEKKGcyMQpnMwpOdFJwNjgKKGRwNjkKZzI0CmcyNQpzZzUxClMnaG9yaXpvbicKcDcwCnNic3NiUyd0cmFpbicKcDcxCih0KGRwNzIKdHA3MwpzUydfX2t3YXJncycKcDc0CihkcDc1CnNiLg==", 
+  "exp_name": "Noisy_untrained2016_09_03_12_55_21", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 4000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCarBarriers.RCCarBarriers", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 500, 
+      "step_size": 0.0001
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCarBarriers.RCCarBarriers", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "GymEnvs.hrl_env.HRLEnv", 
+      "domain": {
+        "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+        "domain": {
+          "_name": "Domains.RCCarBarriers.RCCarBarriers", 
+          "noise": 0.1
+        }
+      }, 
+      "policies": [
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/noisy/good"
+        }, 
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/noisy/untrained"
+        }
+      ]
+    }, 
+    "policy": []
+  }, 
+  "log_dir": "./Results/Car/CarNoisy_v2/Noisy_untrained2016_09_03_12_55_21", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": null, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

@@ -1,0 +1,35 @@
+# YAML file for experiments
+exp_id: null
+experiment: Experiments.ExperimentMod
+# map_dir: '~/work/clipper/models/rl/GridworldMaps/'
+domain: Domains.Acrobot_Mass1
+domain_params:
+# #     mapname: '12x12-Bridge.txt'
+    noise: 0.0
+#     random_start: False
+#     # angle: 3.1415 # pi / 2
+representation: Representations.ModifiedRandomLocalBases
+representation_kernel: rlpy.Representations.gaussian_kernel
+representation_params:
+    num: 2000
+    normalization: True
+    resolution_min: 5
+    resolution_max: 10
+    seed: 5
+policy: rlpy.Policies.eGreedy
+policy_params:
+    # representation: also implicit
+    epsilon: 0.15
+agent: rlpy.Agents.Q_Learning
+agent_params:
+    # - representation
+    # - policy
+    # - discount factor = domain.discount_factor = 0.9
+    initial_learn_rate: 0.9
+    lambda_: 0.5
+    learn_rate_decay_mode: 'boyan'
+    boyan_N0: 200
+max_steps: -1
+max_episode: 400
+num_policy_checks: 5
+checks_per_policy: 1

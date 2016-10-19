@@ -1,0 +1,22 @@
+   400: >>> E[0:00:00]-R[0:00:07]: Return=      -0.1, Steps=100.0, Features = 144
+   800: >>> E[0:00:01]-R[0:00:06]: Return=      -0.1, Steps=100.0, Features = 144
+  1200: >>> E[0:00:01]-R[0:00:05]: Return=      -0.1, Steps=100.0, Features = 144
+  1600: >>> E[0:00:01]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  2000: >>> E[0:00:01]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  2400: >>> E[0:00:02]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  2800: >>> E[0:00:02]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  3200: >>> E[0:00:02]-R[0:00:03]: Return=      -0.1, Steps=100.0, Features = 144
+  3600: >>> E[0:00:02]-R[0:00:03]: Return=      -0.1, Steps=100.0, Features = 144
+  4000: >>> E[0:00:03]-R[0:00:03]: Return=      -0.1, Steps=100.0, Features = 144
+  4400: >>> E[0:00:03]-R[0:00:03]: Return=    0.1327, Steps=92.5, Features = 144
+  4800: >>> E[0:00:03]-R[0:00:02]: Return=    0.7531, Steps=72.75, Features = 144
+  5200: >>> E[0:00:04]-R[0:00:02]: Return=    0.9573, Steps=43.75, Features = 144
+  5600: >>> E[0:00:04]-R[0:00:02]: Return=    0.9534, Steps=47.55, Features = 144
+  6000: >>> E[0:00:04]-R[0:00:01]: Return=    0.9612, Steps=39.8, Features = 144
+  6400: >>> E[0:00:05]-R[0:00:01]: Return=    0.9624, Steps=38.6, Features = 144
+  6800: >>> E[0:00:05]-R[0:00:01]: Return=    0.9616, Steps=39.4, Features = 144
+  7200: >>> E[0:00:05]-R[0:00:01]: Return=    0.7088, Steps=67.0, Features = 144
+  7600: >>> E[0:00:05]-R[0:00:00]: Return=    0.9587, Steps=42.25, Features = 144
+  8000: >>> E[0:00:06]-R[0:00:00]: Return=    0.9558, Steps=45.2, Features = 144
+Total Experiment Duration 0:00:06
+Output:			./Results/Meta/3agentmaze/Aug02_06-03-971884/

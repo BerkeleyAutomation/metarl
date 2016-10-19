@@ -1,0 +1,2 @@
+ docker run -v /home/jarvis/work/clipper/models/rlgym:/root/test/ -it rllab /bin/bash
+# had to install cython. rlpy from source, pyyaml

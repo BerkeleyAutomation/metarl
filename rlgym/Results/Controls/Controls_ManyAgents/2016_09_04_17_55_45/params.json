@@ -1,0 +1,72 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydwbG90JwpwMTUKSTAwCnNTJ2Jhc2VsaW5lJwpwMTYKZzEKKGc3CmczCk50UnAxNwooZHAxOApnMTAKKHRzZzExCmNybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnAxOQpzZzEzCihkcDIwClMnZW52X3NwZWMnCnAyMQpnMQooY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpwMjIKZzMKTnRScDIzCihkcDI0ClMnX29iaicKcDI1CmcxCihnNwpnMwpOdFJwMjYKKGRwMjcKZzEwCih0c2cxMQpjR3ltRW52cy5jb250cm9sX2VudgpDb250cm9sbGVyRW52CnAyOApzZzEzCihkcDI5ClMnbnVtX3BvaW50cycKcDMwCkkxMgpzUydudW1fZHluYW1pY3MnCnAzMQpJNApzUydrJwpJNwpzUydub2lzZScKcDMyCkYwLjA1MDAwMDAwMDAwMDAwMDAwMwpzc2JzUydfYXR0cl9uYW1lJwpwMzMKUydzcGVjJwpwMzQKc2Jzc2JzUydiYXRjaF9zaXplJwpwMzUKSTEwMDAKc1MnZGlzY291bnQnCnAzNgpGMC45OTUKc1Mnc3RlcF9zaXplJwpwMzcKRjAuMDAxCnNTJ25faXRyJwpwMzgKSTcwCnNTJ2VudicKcDM5CmcyNgpzUydwb2xpY3knCnA0MApnMQooZzcKZzMKTnRScDQxCihkcDQyCmcxMAoodHNnMTEKY3JsbGFiLnBvbGljaWVzLmNhdGVnb3JpY2FsX21scF9wb2xpY3kKQ2F0ZWdvcmljYWxNTFBQb2xpY3kKcDQzCnNnMTMKKGRwNDQKZzIxCmcxCihnMjIKZzMKTnRScDQ1CihkcDQ2CmcyNQpnMjYKc2czMwpnMzQKc2JzUydoaWRkZW5fc2l6ZXMnCnA0NwooSTMyCkkxNgp0cDQ4CnNzYnNTJ21heF9wYXRoX2xlbmd0aCcKcDQ5CmcxCihnMjIKZzMKTnRScDUwCihkcDUxCmcyNQpnMjYKc2czMwpTJ2hvcml6b24nCnA1MgpzYnNzYlMndHJhaW4nCnA1MwoodChkcDU0CnRwNTUKc1MnX19rd2FyZ3MnCnA1NgooZHA1NwpzYi4=", 
+  "exp_name": "experiment_2016_09_04_17_53_33_0004", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 1000, 
+      "discount": 0.995, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "GymEnvs.control_env.ControllerEnv", 
+          "k": 7, 
+          "noise": 0.05, 
+          "num_dynamics": 4, 
+          "num_points": 12
+        }
+      }, 
+      "n_itr": 70, 
+      "plot": false, 
+      "step_size": 0.001
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.control_env.ControllerEnv", 
+          "k": 7, 
+          "noise": 0.05, 
+          "num_dynamics": 4, 
+          "num_points": 12
+        }
+      }
+    }, 
+    "env": {
+      "_name": "GymEnvs.control_env.ControllerEnv", 
+      "k": 7, 
+      "noise": 0.05, 
+      "num_dynamics": 4, 
+      "num_points": 12
+    }, 
+    "policy": {
+      "_name": "rllab.policies.categorical_mlp_policy.CategoricalMLPPolicy", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.control_env.ControllerEnv", 
+          "k": 7, 
+          "noise": 0.05, 
+          "num_dynamics": 4, 
+          "num_points": 12
+        }
+      }, 
+      "hidden_sizes": [
+        32, 
+        16
+      ]
+    }
+  }, 
+  "log_dir": "Results/Controls2/2016_09_04_17_55_45", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": null, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

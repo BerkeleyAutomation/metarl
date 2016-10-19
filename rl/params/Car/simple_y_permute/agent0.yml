@@ -1,0 +1,44 @@
+# YAML file for experiments
+exp_id: null
+experiment: rlpy.Experiments.Experiment
+map_dir: '~/work/clipper/models/rl/GridworldMaps/'
+domain: Domains.RCCarDynamics
+domain_params:
+#     mapname: '12x12-Bridge.txt'
+    noise: 0.0
+    random_start: False
+    # angle: 0 # pi / 2
+#     # init_state: 
+#     #     - 0
+#     #     - 0
+representation: Representations.MahaRBF
+representation_params:
+#     # domain is implicit as defined above
+    resolution_max: 25
+    resolution_min: 25
+    const_feature: False
+    normalize: True
+    include_border: True
+    # grid_bins: 
+    #     - 8
+    #     - 8
+    #     - 3
+    #     - 8
+    num_rbfs: 800
+    seed: null
+policy: Policies.DynamicsConfidenceGreedy
+policy_params:
+    # representation: also implicit
+    epsilon: 0.15
+agent: rlpy.Agents.Q_Learning
+agent_params:
+    # - representation
+    # - policy
+    # - discount factor = domain.discount_factor = 0.9
+    initial_learn_rate: 0.6 # 0.7
+    lambda_: 0.1
+    learn_rate_decay_mode: 'boyan'
+    boyan_N0: 700
+max_steps: 50000
+num_policy_checks: 20
+checks_per_policy: 5

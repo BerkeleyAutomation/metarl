@@ -1,0 +1,21 @@
+   400: >>> E[0:00:00]-R[0:00:05]: Return=      -0.1, Steps=100.0, Features = 144
+   800: >>> E[0:00:00]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  1200: >>> E[0:00:01]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  1600: >>> E[0:00:01]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  2000: >>> E[0:00:01]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  2400: >>> E[0:00:02]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  2800: >>> E[0:00:02]-R[0:00:04]: Return=      -0.1, Steps=100.0, Features = 144
+  3200: >>> E[0:00:02]-R[0:00:03]: Return=      -0.1, Steps=100.0, Features = 144
+  3600: >>> E[0:00:03]-R[0:00:03]: Return=      -0.1, Steps=100.0, Features = 144
+  4000: >>> E[0:00:03]-R[0:00:03]: Return=    0.9287, Steps=47.3, Features = 144
+  4400: >>> E[0:00:03]-R[0:00:03]: Return=    0.9592, Steps=41.8, Features = 144
+  4800: >>> E[0:00:04]-R[0:00:02]: Return=    0.9616, Steps=39.4, Features = 144
+  5200: >>> E[0:00:04]-R[0:00:02]: Return=    0.9587, Steps=42.3, Features = 144
+  5600: >>> E[0:00:04]-R[0:00:02]: Return=    0.5691, Steps=81.55, Features = 144
+  6000: >>> E[0:00:04]-R[0:00:01]: Return=    0.9607, Steps=40.3, Features = 144
+  6400: >>> E[0:00:05]-R[0:00:01]: Return=     0.958, Steps=43.0, Features = 144
+  6800: >>> E[0:00:05]-R[0:00:01]: Return=    0.9616, Steps=39.35, Features = 144
+  7200: >>> E[0:00:05]-R[0:00:01]: Return=    0.9624, Steps=38.65, Features = 144
+  7600: >>> E[0:00:06]-R[0:00:00]: Return=    0.9632, Steps=37.85, Features = 144
+  8000: >>> E[0:00:06]-R[0:00:00]: Return=    0.9464, Steps=54.65, Features = 144
+Total Experiment Duration 0:00:06

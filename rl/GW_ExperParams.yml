@@ -1,0 +1,74 @@
+# Experiments
+
+experiment: 1
+  map: '11x11-Rooms.txt'
+  agents:
+    - './Results/Mixed/agent0/Jul26_05-40-200563'
+    - './Results/Mixed/agent1/Jul26_05-40-636595'
+  dynamics: """
+    def terrain_actions(self, state):
+        terr = self.get_terrain(state)
+        if terr == 0:
+            return self.ACTIONS
+        elif terr == 1:
+            return np.array([[+1, 0], [-1, 0], [0, -1], [0, +1]]) #up down switched
+      """
+# experiment: 2
+#   map: '11x11-Rooms2.txt'
+#   agents:
+#     - './Results/Mixed/agent0/Jul29_02-13-525855'
+#     - './Results/Mixed/agent1/Jul29_02-14-648519'
+
+experiment: 3
+  map: '11x11-Rooms3.txt'
+  agents:
+    - "./Results/Mixed/agent0/Jul29_02-48-334415/"
+    - "./Results/Mixed/agent1/Jul29_02-48-430882/"
+
+experiment: 4
+  map: '11x11-Rooms3.txt'
+  agents:
+    - ['./Results/Mixed_Actions3/agent0/Aug02_03-36-657085', 
+          './Results/Mixed_Actions3/agent1/Aug02_03-36-124593', 
+          './Results/Mixed_Actions3/agent2/Aug02_03-37-390621',
+          './Results/Mixed_Actions3/agent3/Aug02_04-51-762985']
+  dynamics: 
+    """
+    def get_terrain(self, state):
+        assert len(state) < 3, 'state length is not 2'
+        # return int(state[0] < 5)
+        return int(state[1] < 4) + int(state[1] < 6) + int(state[1] < 9) 
+    def terrain_actions(self, state):
+        terr = self.get_terrain(state)
+        if terr == 0:
+            return self.ACTIONS
+        elif terr == 1:
+            return np.array([[+1, 0], [-1, 0], [0, -1], [0, +1]]) #up down switched
+        elif terr == 2: 
+            return np.array([[0, -1], [0, +1], [+1, 0], [-1, 0]]) # more switching
+        elif terr == 3: 
+            return np.array([[0, -1], [+1, 0], [0, +1],  [-1, 0]]) # more switching
+    """
+
+experiment: 5
+  map: '11x11-Rooms3.txt'
+  results: 
+    - /Results/Meta/3agentmaze/Aug02_06-03-971884 # for 
+  agents: 
+   - ['./Results/Mixed_Actions3/agent0/Aug02_05-53-219522', 
+      './Results/Mixed_Actions3/agent1/Aug02_05-53-805251', 
+      './Results/Mixed_Actions3/agent2/Aug02_05-53-439359', 
+      './Results/Mixed_Actions3/agent3/Aug02_05-53-025208']
+
+  dynamics:
+    """
+    def get_terrain(self, state):
+        assert len(state) < 3, 'state length is not 2'
+        # return int(state[0] < 5)
+        return int(state[1] < 4) + int(state[1] < 6) + int(state[1] < 9) 
+
+    def terrain_actions(self, state):
+        terr = self.get_terrain(state)
+
+        return np.append(self.ACTIONS[-terr:], self.ACTIONS[:-terr], axis=0)
+    """

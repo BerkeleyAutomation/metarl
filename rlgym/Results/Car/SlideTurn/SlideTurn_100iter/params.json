@@ -1,0 +1,83 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY0d5bUVudnMuaHJsX2VudgpIUkxFbnYKcDI3CnNnMTMKKGRwMjgKUydkb21haW4nCnAyOQpnMQooZzcKZzMKTnRScDMwCihkcDMxCmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMzIKc2cxMwooZHAzMwpnMjkKZzEKKGc3CmczCk50UnAzNAooZHAzNQpnMTAKKHRzZzExCmNEb21haW5zLlJDQ2FyX0V4cGVyaW1lbnRhbApSQ0NhclNsaWRlVHVybgpwMzYKc2cxMwooZHAzNwpTJ25vaXNlJwpwMzgKRjAuMTAwMDAwMDAwMDAwMDAwMDEKc3Nic3Nic1MncG9saWNpZXMnCnAzOQoobHA0MApnMQooY1BvbGljaWVzLlBvbGljeUxvYWRlcgpQb2xpY3lMb2FkZXIKcDQxCmczCk50UnA0MgooZHA0MwpTJ3BhdGhfdG9fZXhwJwpwNDQKUydtb2RlbHMvc2xpZGV0dXJuX2V4cGVyaW1lbnQvYWdlbnQwJwpwNDUKc2JhZzEKKGc0MQpnMwpOdFJwNDYKKGRwNDcKZzQ0ClMnbW9kZWxzL3NsaWRldHVybl9leHBlcmltZW50L2FnZW50MScKcDQ4CnNiYXNzYnNTJ19hdHRyX25hbWUnCnA0OQpTJ3NwZWMnCnA1MApzYnNzYnNTJ2JhdGNoX3NpemUnCnA1MQpJNDAwMApzUydkaXNjb3VudCcKcDUyCkYwLjkwMDAwMDAwMDAwMDAwMDAyCnNTJ3N0ZXBfc2l6ZScKcDUzCkYwLjAxCnNTJ25faXRyJwpwNTQKSTEwMApzUydlbnYnCnA1NQpnMjUKc1MncG9saWN5JwpwNTYKZzEKKGc3CmczCk50UnA1NwooZHA1OApnMTAKKHRzZzExCmNybGxhYi5wb2xpY2llcy5jYXRlZ29yaWNhbF9tbHBfcG9saWN5CkNhdGVnb3JpY2FsTUxQUG9saWN5CnA1OQpzZzEzCihkcDYwCmcyMApnMQooZzIxCmczCk50UnA2MQooZHA2MgpnMjQKZzI1CnNnNDkKZzUwCnNic3Nic1MnbWF4X3BhdGhfbGVuZ3RoJwpwNjMKZzEKKGcyMQpnMwpOdFJwNjQKKGRwNjUKZzI0CmcyNQpzZzQ5ClMnaG9yaXpvbicKcDY2CnNic3NiUyd0cmFpbicKcDY3Cih0KGRwNjgKdHA2OQpzUydfX2t3YXJncycKcDcwCihkcDcxCnNiLg==", 
+  "exp_name": "experiment_2016_08_25_20_19_34_0001", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 4000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 100, 
+      "step_size": 0.01
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "GymEnvs.hrl_env.HRLEnv", 
+      "domain": {
+        "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+        "domain": {
+          "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+          "noise": 0.1
+        }
+      }, 
+      "policies": []
+    }, 
+    "policy": {
+      "_name": "rllab.policies.categorical_mlp_policy.CategoricalMLPPolicy", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }
+    }
+  }, 
+  "log_dir": "./Results/Car/SlideTurn_100iter/", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": 1, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

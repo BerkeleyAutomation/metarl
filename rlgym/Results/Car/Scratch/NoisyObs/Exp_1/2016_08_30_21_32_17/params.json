@@ -1,0 +1,69 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY3JsbGFiLmVudnMubm9pc3lfZW52Ck5vaXN5T2JzZXJ2YXRpb25FbnYKcDI3CnNnMTMKKGRwMjgKUydvYnNfbm9pc2UnCnAyOQpGMC4wMQpzUydlbnYnCnAzMApnMQooZzcKZzMKTnRScDMxCihkcDMyCmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMzMKc2cxMwooZHAzNApTJ2RvbWFpbicKcDM1CmcxCihnNwpnMwpOdFJwMzYKKGRwMzcKZzEwCih0c2cxMQpjRG9tYWlucy5SQ0Nhcl9FeHBlcmltZW50YWwKUkNDYXJTbGlkZVR1cm4KcDM4CnNnMTMKKGRwMzkKUydub2lzZScKcDQwCkYwCnNzYnNzYnNzYnNTJ19hdHRyX25hbWUnCnA0MQpTJ3NwZWMnCnA0MgpzYnNzYnNTJ2JhdGNoX3NpemUnCnA0MwpJNDAwMApzUydkaXNjb3VudCcKcDQ0CkYwLjkwMDAwMDAwMDAwMDAwMDAyCnNTJ3N0ZXBfc2l6ZScKcDQ1CkYwLjAxCnNTJ25faXRyJwpwNDYKSTEwMApzZzMwCmcyNQpzUydwb2xpY3knCnA0NwpnMQooZzcKZzMKTnRScDQ4CihkcDQ5CmcxMAoodHNnMTEKY3JsbGFiLnBvbGljaWVzLmNhdGVnb3JpY2FsX21scF9wb2xpY3kKQ2F0ZWdvcmljYWxNTFBQb2xpY3kKcDUwCnNnMTMKKGRwNTEKZzIwCmcxCihnMjEKZzMKTnRScDUyCihkcDUzCmcyNApnMjUKc2c0MQpnNDIKc2Jzc2JzUydtYXhfcGF0aF9sZW5ndGgnCnA1NApnMQooZzIxCmczCk50UnA1NQooZHA1NgpnMjQKZzI1CnNnNDEKUydob3Jpem9uJwpwNTcKc2Jzc2JTJ3RyYWluJwpwNTgKKHQoZHA1OQp0cDYwCnNTJ19fa3dhcmdzJwpwNjEKKGRwNjIKc2Iu", 
+  "exp_name": "Exp_12016_08_30_21_32_17", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 4000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "rllab.envs.noisy_env.NoisyObservationEnv", 
+          "env": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+              "noise": 0.0
+            }
+          }, 
+          "obs_noise": 0.01, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 100, 
+      "step_size": 0.01
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "rllab.envs.noisy_env.NoisyObservationEnv", 
+          "env": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+              "noise": 0.0
+            }
+          }, 
+          "obs_noise": 0.01, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "rllab.envs.noisy_env.NoisyObservationEnv", 
+      "env": {
+        "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+        "domain": {
+          "_name": "Domains.RCCar_Experimental.RCCarSlideTurn", 
+          "noise": 0.0
+        }
+      }, 
+      "obs_noise": 0.01
+    }, 
+    "policy": []
+  }, 
+  "log_dir": "./Results/Car/Scratch/NoisyObs/Exp_1/2016_08_30_21_32_17", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": null, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

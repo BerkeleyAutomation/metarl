@@ -1,0 +1,79 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY0d5bUVudnMuaHJsX2VudgpIUkxFbnYKcDI3CnNnMTMKKGRwMjgKUydkb21haW4nCnAyOQpnMQooZzcKZzMKTnRScDMwCihkcDMxCmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMzIKc2cxMwooZHAzMwpnMjkKZzEKKGc3CmczCk50UnAzNAooZHAzNQpnMTAKKHRzZzExCmNEb21haW5zLlJDQ2FyX0V4cGVyaW1lbnRhbApSQ0NhclNUX1RydW5jYXRvcgpwMzYKc2cxMwooZHAzNwpTJ25vaXNlJwpwMzgKRjAuMTAwMDAwMDAwMDAwMDAwMDEKc1MncG5sdHlfdHJ1bmMnCnAzOQpGMC4yOTk5OTk5OTk5OTk5OTk5OQpzc2Jzc2JzUydwb2xpY2llcycKcDQwCihscDQxCmcxCihnNwpnMwpOdFJwNDIKKGRwNDMKZzEwCih0c2cxMQpjUG9saWNpZXMuUG9saWN5TG9hZGVyClBvbGljeUxvYWRlcgpwNDQKc2cxMwooZHA0NQpTJ3BhdGhfdG9fZXhwJwpwNDYKUydtb2RlbHMvc2xpZGV0dXJuX2V4cGVyaW1lbnQvYWdlbnQwJwpwNDcKc3NiYWcxCihnNwpnMwpOdFJwNDgKKGRwNDkKZzEwCih0c2cxMQpnNDQKc2cxMwooZHA1MApnNDYKUydtb2RlbHMvc2xpZGV0dXJuX2V4cGVyaW1lbnQvYWdlbnQxJwpwNTEKc3NiYXNzYnNTJ19hdHRyX25hbWUnCnA1MgpTJ3NwZWMnCnA1MwpzYnNzYnNTJ2JhdGNoX3NpemUnCnA1NApJNDAwMApzUydkaXNjb3VudCcKcDU1CkYwLjkwMDAwMDAwMDAwMDAwMDAyCnNTJ3N0ZXBfc2l6ZScKcDU2CkYwLjAxCnNTJ25faXRyJwpwNTcKSTEwMApzUydlbnYnCnA1OApnMjUKc1MncG9saWN5JwpwNTkKZzEKKGc3CmczCk50UnA2MAooZHA2MQpnMTAKKHRzZzExCmNybGxhYi5wb2xpY2llcy5jYXRlZ29yaWNhbF9tbHBfcG9saWN5CkNhdGVnb3JpY2FsTUxQUG9saWN5CnA2MgpzZzEzCihkcDYzCmcyMApnMQooZzIxCmczCk50UnA2NAooZHA2NQpnMjQKZzI1CnNnNTIKZzUzCnNic3Nic1MnbWF4X3BhdGhfbGVuZ3RoJwpwNjYKZzEKKGcyMQpnMwpOdFJwNjcKKGRwNjgKZzI0CmcyNQpzZzUyClMnaG9yaXpvbicKcDY5CnNic3NiUyd0cmFpbicKcDcwCih0KGRwNzEKdHA3MgpzUydfX2t3YXJncycKcDczCihkcDc0CnNiLg==", 
+  "exp_name": "Exp42016_08_28_22_25_54", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 4000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarST_Truncator", 
+              "noise": 0.1, 
+              "pnlty_trunc": 0.3
+            }
+          }, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 100, 
+      "step_size": 0.01
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCar_Experimental.RCCarST_Truncator", 
+              "noise": 0.1, 
+              "pnlty_trunc": 0.3
+            }
+          }, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "GymEnvs.hrl_env.HRLEnv", 
+      "domain": {
+        "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+        "domain": {
+          "_name": "Domains.RCCar_Experimental.RCCarST_Truncator", 
+          "noise": 0.1, 
+          "pnlty_trunc": 0.3
+        }
+      }, 
+      "policies": [
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/slideturn_experiment/agent0"
+        }, 
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/slideturn_experiment/agent1"
+        }
+      ]
+    }, 
+    "policy": []
+  }, 
+  "log_dir": "./Results/Car/RewardVarying/Exp4/2016_08_28_22_25_54", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": null, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

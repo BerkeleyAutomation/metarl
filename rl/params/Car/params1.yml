@@ -1,0 +1,35 @@
+# YAML file for experiments
+exp_id: null
+experiment: Experiments.ExperimentMod
+# map_dir: '~/work/clipper/models/rl/GridworldMaps/'
+domain: Domains.RCCarLeftTurn
+domain_params:
+#     mapname: '12x12-Bridge.txt'
+    noise: 0.0
+    random_start: False
+    # angle: 3.1415 # pi / 2
+representation: rlpy.Representations.RandomLocalBases
+representation_kernel: rlpy.Representations.gaussian_kernel
+representation_params:
+    num: 1000
+    normalization: True
+    resolution_min: 5
+    resolution_max: 10
+    seed: 5
+policy: rlpy.Policies.eGreedy
+policy_params:
+    # representation: also implicit
+    epsilon: 0.15
+agent: rlpy.Agents.Q_Learning
+agent_params:
+    # - representation
+    # - policy
+    # - discount factor = domain.discount_factor = 0.9
+    initial_learn_rate: 0.9
+    lambda_: 0.5
+    learn_rate_decay_mode: 'const'
+    # boyan_N0: 2000
+max_steps: -1
+max_episode: 3000
+num_policy_checks: 10
+checks_per_policy: 1

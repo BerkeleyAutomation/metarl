@@ -1,0 +1,3 @@
+Notes:
+
+Modularization! Make sure Experiment script is separate from the parameter configurations, and you should have a script to execute the experiment in the first place

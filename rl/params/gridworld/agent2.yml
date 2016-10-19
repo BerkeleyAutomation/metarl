@@ -1,0 +1,33 @@
+# YAML file for experiments
+exp_id: 2
+experiment: rlpy.Experiments.Experiment
+map_dir: '~/work/clipper/models/rl/GridworldMaps/'
+domain: Domains.GridWorldReversed2
+domain_params:
+    mapname: '11x11-Rooms3.txt'
+    noise: 0.1
+    # start_at: 
+    #     - 0
+    #     - 0
+representation: Representations.ModifiedTabular
+representation_params:
+    discretization: 1
+    # domain is implicit as defined above
+    # order: 3
+policy: Policies.DynamicsConfidenceGreedy
+policy_params:
+    # representation: also implicit
+    epsilon: 0.3
+    # dim: 3
+agent: rlpy.Agents.Q_Learning
+agent_params:
+    # - representation
+    # - policy
+    # - discount factor = domain.discount_factor = 0.9
+    initial_learn_rate: 0.8
+    lambda_: 0.5
+    learn_rate_decay_mode: 'boyan'
+    boyan_N0: 2380
+max_steps: 10000
+num_policy_checks: 10
+checks_per_policy: 10

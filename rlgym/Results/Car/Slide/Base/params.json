@@ -1,0 +1,71 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMjcKc2cxMwooZHAyOApTJ2RvbWFpbicKcDI5CmcxCihnNwpnMwpOdFJwMzAKKGRwMzEKZzEwCih0c2cxMQpjRG9tYWlucy5SQ0Nhcl9FeHBlcmltZW50YWwKUkNDYXJMZWZ0CnAzMgpzZzEzCihkcDMzClMnbm9pc2UnCnAzNApGMApzc2Jzc2JzUydfYXR0cl9uYW1lJwpwMzUKUydzcGVjJwpwMzYKc2Jzc2JzUydiYXRjaF9zaXplJwpwMzcKSTgwMDAKc1MnZGlzY291bnQnCnAzOApGMC45MDAwMDAwMDAwMDAwMDAwMgpzUydzdGVwX3NpemUnCnAzOQpGMC4wMQpzUyduX2l0cicKcDQwCkkyMDAKc1MnZW52JwpwNDEKZzI1CnNTJ3BvbGljeScKcDQyCmcxCihnNwpnMwpOdFJwNDMKKGRwNDQKZzEwCih0c2cxMQpjcmxsYWIucG9saWNpZXMuY2F0ZWdvcmljYWxfbWxwX3BvbGljeQpDYXRlZ29yaWNhbE1MUFBvbGljeQpwNDUKc2cxMwooZHA0NgpnMjAKZzEKKGcyMQpnMwpOdFJwNDcKKGRwNDgKZzI0CmcyNQpzZzM1CmczNgpzYnNzYnNTJ21heF9wYXRoX2xlbmd0aCcKcDQ5CmcxCihnMjEKZzMKTnRScDUwCihkcDUxCmcyNApnMjUKc2czNQpTJ2hvcml6b24nCnA1MgpzYnNzYlMndHJhaW4nCnA1MwoodChkcDU0CnRwNTUKc1MnX19rd2FyZ3MnCnA1NgooZHA1NwpzYi4=", 
+  "exp_name": "Base2016_08_27_17_07_39", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 8000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+          "domain": {
+            "_name": "Domains.RCCar_Experimental.RCCarLeft", 
+            "noise": 0.0
+          }, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 200, 
+      "step_size": 0.01
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+          "domain": {
+            "_name": "Domains.RCCar_Experimental.RCCarLeft", 
+            "noise": 0.0
+          }, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+      "domain": {
+        "_name": "Domains.RCCar_Experimental.RCCarLeft", 
+        "noise": 0.0
+      }, 
+      "policies": []
+    }, 
+    "policy": {
+      "_name": "rllab.policies.categorical_mlp_policy.CategoricalMLPPolicy", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+          "domain": {
+            "_name": "Domains.RCCar_Experimental.RCCarLeft", 
+            "noise": 0.0
+          }, 
+          "policies": []
+        }
+      }
+    }
+  }, 
+  "log_dir": "./Results/Car/Slide/Base", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": 1, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}

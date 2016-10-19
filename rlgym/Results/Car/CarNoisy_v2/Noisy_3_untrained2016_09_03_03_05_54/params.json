@@ -1,0 +1,84 @@
+{
+  "args_data": "Y2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnAxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnAyCmNfX2J1aWx0aW5fXwpvYmplY3QKcDMKTnRScDQKKGRwNQpTJ19fYXJncycKcDYKKGcxCihjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJPYmplY3QKcDcKZzMKTnRScDgKKGRwOQpTJ2FyZ3MnCnAxMAoodHNTJ3Byb3h5X2NsYXNzJwpwMTEKY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpwMTIKc1Mna3dhcmdzJwpwMTMKKGRwMTQKUydiYXNlbGluZScKcDE1CmcxCihnNwpnMwpOdFJwMTYKKGRwMTcKZzEwCih0c2cxMQpjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpwMTgKc2cxMwooZHAxOQpTJ2Vudl9zcGVjJwpwMjAKZzEKKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcDIxCmczCk50UnAyMgooZHAyMwpTJ19vYmonCnAyNApnMQooZzcKZzMKTnRScDI1CihkcDI2CmcxMAoodHNnMTEKY0d5bUVudnMuaHJsX2VudgpIUkxFbnYKcDI3CnNnMTMKKGRwMjgKUydkb21haW4nCnAyOQpnMQooZzcKZzMKTnRScDMwCihkcDMxCmcxMAoodHNnMTEKY0d5bUVudnMucmxweV9lbnYKUkxQeUVudgpwMzIKc2cxMwooZHAzMwpnMjkKZzEKKGc3CmczCk50UnAzNAooZHAzNQpnMTAKKHRzZzExCmNEb21haW5zLlJDQ2FyQmFycmllcnMKUkNDYXJCYXJyaWVycwpwMzYKc2cxMwooZHAzNwpTJ25vaXNlJwpwMzgKRjAuMTAwMDAwMDAwMDAwMDAwMDEKc3Nic3Nic1MncG9saWNpZXMnCnAzOQoobHA0MApnMQooZzcKZzMKTnRScDQxCihkcDQyCmcxMAoodHNnMTEKY1BvbGljaWVzLlBvbGljeUxvYWRlcgpQb2xpY3lMb2FkZXIKcDQzCnNnMTMKKGRwNDQKUydwYXRoX3RvX2V4cCcKcDQ1ClMnbW9kZWxzL25vaXN5L2dvb2QnCnA0Ngpzc2JhZzEKKGc3CmczCk50UnA0NwooZHA0OApnMTAKKHRzZzExCmc0MwpzZzEzCihkcDQ5Cmc0NQpTJ21vZGVscy9ub2lzeS91bnRyYWluZWQnCnA1MApzc2JhZzEKKGc3CmczCk50UnA1MQooZHA1MgpnMTAKKHRzZzExCmc0MwpzZzEzCihkcDUzCmc0NQpTJ21vZGVscy9ub2lzeS91bnRyYWluZWQnCnA1NApzc2JhZzEKKGc3CmczCk50UnA1NQooZHA1NgpnMTAKKHRzZzExCmc0MwpzZzEzCihkcDU3Cmc0NQpTJ21vZGVscy9ub2lzeS91bnRyYWluZWQnCnA1OApzc2Jhc3Nic1MnX2F0dHJfbmFtZScKcDU5ClMnc3BlYycKcDYwCnNic3Nic1MnYmF0Y2hfc2l6ZScKcDYxCkk0MDAwCnNTJ2Rpc2NvdW50JwpwNjIKRjAuOTAwMDAwMDAwMDAwMDAwMDIKc1Mnc3RlcF9zaXplJwpwNjMKRjAuMDAwMQpzUyduX2l0cicKcDY0CkkxMDAwCnNTJ2VudicKcDY1CmcyNQpzUydwb2xpY3knCnA2NgpnMQooZzcKZzMKTnRScDY3CihkcDY4CmcxMAoodHNnMTEKY3JsbGFiLnBvbGljaWVzLmNhdGVnb3JpY2FsX21scF9wb2xpY3kKQ2F0ZWdvcmljYWxNTFBQb2xpY3kKcDY5CnNnMTMKKGRwNzAKZzIwCmcxCihnMjEKZzMKTnRScDcxCihkcDcyCmcyNApnMjUKc2c1OQpnNjAKc2JzUydoaWRkZW5fc2l6ZXMnCnA3MwooSTY0CkkzMgp0cDc0CnNzYnNTJ21heF9wYXRoX2xlbmd0aCcKcDc1CmcxCihnMjEKZzMKTnRScDc2CihkcDc3CmcyNApnMjUKc2c1OQpTJ2hvcml6b24nCnA3OApzYnNzYlMndHJhaW4nCnA3OQoodChkcDgwCnRwODEKc1MnX19rd2FyZ3MnCnA4MgooZHA4MwpzYi4=", 
+  "exp_name": "Noisy_3_untrained2016_09_03_03_05_54", 
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO", 
+      "batch_size": 4000, 
+      "discount": 0.9, 
+      "max_path_length": {
+        "attr": "horizon", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCarBarriers.RCCarBarriers", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }, 
+      "n_itr": 1000, 
+      "step_size": 0.0001
+    }, 
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline", 
+      "env_spec": {
+        "attr": "spec", 
+        "obj": {
+          "_name": "GymEnvs.hrl_env.HRLEnv", 
+          "domain": {
+            "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+            "domain": {
+              "_name": "Domains.RCCarBarriers.RCCarBarriers", 
+              "noise": 0.1
+            }
+          }, 
+          "policies": []
+        }
+      }
+    }, 
+    "env": {
+      "_name": "GymEnvs.hrl_env.HRLEnv", 
+      "domain": {
+        "_name": "GymEnvs.rlpy_env.RLPyEnv", 
+        "domain": {
+          "_name": "Domains.RCCarBarriers.RCCarBarriers", 
+          "noise": 0.1
+        }
+      }, 
+      "policies": [
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/noisy/good"
+        }, 
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/noisy/untrained"
+        }, 
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/noisy/untrained"
+        }, 
+        {
+          "_name": "Policies.PolicyLoader.PolicyLoader", 
+          "path_to_exp": "models/noisy/untrained"
+        }
+      ]
+    }, 
+    "policy": []
+  }, 
+  "log_dir": "./Results/Car/CarNoisy_v2/Noisy_3_untrained2016_09_03_03_05_54", 
+  "log_tabular_only": false, 
+  "n_parallel": 4, 
+  "params_log_file": "params.json", 
+  "plot": false, 
+  "resume_from": null, 
+  "seed": null, 
+  "snapshot_mode": "last", 
+  "tabular_log_file": "progress.csv", 
+  "text_log_file": "debug.log", 
+  "variant_log_file": "variant.json"
+}
